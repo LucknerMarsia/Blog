@@ -1,0 +1,91 @@
+body {
+  background-color: #beef64;
+  font-family: Verdana, Helvetica, Arial;
+  font-size: 17px;
+}
+
+#container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: rgb(232, 98, 98);
+  padding: 20px 40px;
+  border: solid 5px rgb(3, 15, 67);
+  margin-top: 20px;
+}
+
+h1 {
+  text-align: center 
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#artigo-admin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+#artigo-admin:hover {
+  background-color: #ec9696;
+}
+
+.botao {
+  padding: 5px;
+  background-color: rgb(47, 107, 7);
+  color: #04042a;
+  font-weight: bold;
+  border: solid 3px rgb(1, 16, 31);
+}
+
+.botaoadmin {
+  padding: 5px;
+  background-color: rgb(47, 107, 7);
+  color: #04042a;
+  font-weight: bold;
+  border: solid 3px rgb(1, 16, 31);
+  display: block;
+  width: max-content;
+}
+
+.botaoindex {
+  padding: 5px;
+  background-color: rgb(47, 107, 7);
+  color: #04042a;
+  font-weight: bold;
+  border: solid 3px rgb(1, 16, 31);
+  display: block;
+  text-align: center
+}
+
+.imagem {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imagemadmin {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.campo-form {
+  margin: 10px 0;
+  background-color: rgb(233, 168, 168);
+  border: solid 3px rgb(4, 31, 59);
+  display: block;
+}
+
+.botao-block {
+  display: block;
+  width: max-content;
+}
